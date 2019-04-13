@@ -28,6 +28,8 @@ class App extends Component {
 
   handleLogOut = () => {
     const { userSession } = this.state
+    userSession.signUserOut();
+    window.location = '/'
   };
 
   render() {
