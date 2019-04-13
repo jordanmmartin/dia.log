@@ -73,6 +73,7 @@ const steps=[
             trigger: 'start-curriculum'
           },
           {
+            delay: 1000,
             id: 'start-curriculum',
             message: 'Eating well can help you prevent or delay type 2 diabetes. Today, we will talk about: how to eat well, how to build a healthy meal, and the items in each food group.',
             trigger: '3'
@@ -140,7 +141,7 @@ const steps=[
           {
             delay: 6000,
             id: 'quiz-2',
-            message: "To prevent type 2 diabetes, you want to limit food items high in:",
+            message: "Quiz time! To prevent type 2 diabetes, you want to limit food items high in which of the following:",
             trigger: 'quiz-2-options'
           },
           {
@@ -159,8 +160,25 @@ const steps=[
           {
             id: 'correct-2',
             message: "That's correct! Let's move on.",
-            end: true
+            trigger: '9'
           },
+          {
+            id: '9',
+            message: 'Now let’s put those ideas into practice. Let’s turn to the handouts that go with this module. Please look at “A Healthy Meal” on page 3.',
+            trigger: '10'
+          },
+          {
+            delay: 3000,
+            id: '10',
+            message: "This picture shows a healthy meal. It’s based on the Create Your Plate idea from the American Diabetes Association.",
+            trigger: '11'
+          },
+          {
+            delay: 5000,
+            id: '11',
+            message: "As you can see, you'll want to make: Half of your plate non-starchy veggies (such as broccoli, lettuce, and peppers), A quarter of your plate grains and starchy foods (such as potatoes and oatmeal), and Another quarter of your plate protein foods (such as chicken, lean meat, and fish)",
+            end: true
+          }
         ]
 
 export default steps;
