@@ -15,7 +15,7 @@ It is 16-weeks long, instructor-led, and conversational-style which educates enr
 
 - React
 - CSS
-- [https://blockstack.org/](Blockstack)
+- [Blockstack](https://blockstack.org/)
 
 ## Available Scripts
 
@@ -36,7 +36,7 @@ This app utilizes Blockstack. Download Blockstack browser and create an account 
 
 
 ## Contributors 
-- Jackie Ha [https://github.com/jkhaha](Github)
-- Jordan Martin [https://github.com/jordanmmartin](Github)
-- McKenzie Fiege [https://github.com/mckenziefiege](Github)
-- Wiljago Cook [https://github.com/reduviidae](Github)
+- Jackie Ha [Github](https://github.com/jkhaha)
+- Jordan Martin [Github](https://github.com/jordanmmartin)
+- McKenzie Fiege [Github](https://github.com/mckenziefiege)
+- Wiljago Cook [Github](https://github.com/reduviidae)
