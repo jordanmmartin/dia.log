@@ -1,33 +1,83 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  border-color: #eee;
+}
+
+.app-name {
   text-align: center;
+  text-transform: uppercase;
+  color: #696969;
+  font-size: 40px;
+  padding-top: 30px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.btn {
+  border-radius: 100px;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 18px;
+  border-style: none;
+  background: linear-gradient(to right, rgb(0,172,106) 0%, rgb(0,191,118) 100.24%);
   color: white;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+a, a:visited, a:active {
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.chat-bot-container {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.user-profile {
+  display: flex;
+  justify-content: center;
+}
+
+.secondary-button {
+  background: rgb(0,191,118);
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  cursor: pointer;
+  border-style: none;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 100px;
+  padding: 5px 10px;
+}
+
+.your-lessons {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #696969;
+  font-weight: 700;
+}
+
+.lesson {
+  display: inline;
+  margin-right: 20px;
+  font-size: 16px;
+  color: #696969;
+  font-weight: 700;
+}
+
+.sign-in-container {
+  display: flex;
+  justify-content: center;
 }

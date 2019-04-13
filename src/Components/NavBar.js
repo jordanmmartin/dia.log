@@ -4,10 +4,13 @@ import { withRouter, Link } from 'react-router-dom';
 class NavBar extends Component {
   render () {
     return (
-        <div>
-          {this.props.userSession.isUserSignedIn() && <Link to="/profile">Profile</Link>}
-          {this.props.userSession.isUserSignedIn() && <button onClick={this.props.handleLogOut}> LOGOUT </button>}
-        </div>
+      <div>
+      <h1 className="app-name">App Name</h1>
+        <nav className="navigation">
+          {this.props.userSession.isUserSignedIn() && <Link className="btn" to="/profile">Profile</Link>}
+          {this.props.userSession.isUserSignedIn() && <button className="btn" onClick={this.props.handleLogOut}>logout</button>}
+        </nav>
+      </div>
     )
   }
 }

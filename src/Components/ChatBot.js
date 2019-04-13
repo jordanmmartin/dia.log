@@ -24,7 +24,7 @@ class ChatBox extends Component {
     console.log(user);
     return(
       <ThemeProvider theme={theme}>
-        <ChatBot width={"50"} steps={steps} />
+        <ChatBot className="chat-bot-container" style= {{width: '80%'}} steps={steps} />
       </ThemeProvider>
     )
   }
