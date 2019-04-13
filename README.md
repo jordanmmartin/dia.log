@@ -1,8 +1,36 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# DIA.LOG()
+
+## Motivation
+This app is designed to increase the accessibility of the National Diabetic Prevention Program for pre-diabetic adults to reduce the onset of diabetes by deploying an automated chatbot solution that scales infinitely.
+
+In the United States, more than 30 million Americans have diabetes, and more than 84 million US adults—that’s 1 in 3—has prediabetes. The associated cost of diabetes is $327 billion. 
+
+The National Diabetes Prevention Program—or National DPP—was created in 2010 by the CDC to address the increasing burden of pre-diabetes and type 2 diabetes in the United States.
+
+It is a research-based, structured lifestyle change program focusing on healthy eating and physical activity which showed that people with pre-diabetes who take part in it cut their risk of developing type 2 diabetes by 58%.
+
+It is 16-weeks long, instructor-led, and conversational-style which educates enrollees and helps them track and manage their health goals. It is worth noting that it also fully reimbursable. Currently there are hundreds of organizations nationwide implementing the program. Our app was designed to help the scalability constraints of the DPP for the vast majority of pre-diabetic individuals who may have trouble attending one of these courses (in-person or online), and give them the flexibility to take this course anytime, anywhere, without the need for human instructors. 
+
+## Features
+A user can interact with a chat bot that has the DPP curriculum, allowing them to learn about preventing diabetes.
+
+## Screenshots
+![Screen Shot 2019-04-13 at 6 53 33 PM](https://user-images.githubusercontent.com/42298251/56086113-c85b4d00-5e1d-11e9-9931-de10d40c7936.png)
+![Screen Shot 2019-04-13 at 7 06 18 PM](https://user-images.githubusercontent.com/42298251/56086179-44a26000-5e1f-11e9-8522-8273eb3b709b.png)
+
+## Built with
+
+- React
+- CSS
+- [Blockstack](https://blockstack.org/)
+- [React Simple Chatbot](https://www.npmjs.com/package/react-simple-chatbot)
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+Run npm install to install dependencies. 
 
 ### `npm start`
 
@@ -12,57 +40,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
+This app utilizes Blockstack. Download Blockstack browser and create an account with Blockstack to use this app.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Goals for future
+We would like to make user profiles more customizable and add the full curriculum of the DPP. 
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Contributors 
+- Jackie Ha [Github](https://github.com/jkhaha)
+- Jordan Martin [Github](https://github.com/jordanmmartin)
+- McKenzie Fiege [Github](https://github.com/mckenziefiege)
+- Wiljago Cook [Github](https://github.com/reduviidae)

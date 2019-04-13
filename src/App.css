@@ -81,3 +81,7 @@ a, a:visited, a:active {
   display: flex;
   justify-content: center;
 }
+
+.rsc-ts {
+  font-size: 20px;
+}
