@@ -36,7 +36,7 @@ This app utilizes Blockstack. Download Blockstack browser and create an account 
 
 
 ## Contributors 
-- Jackie Ha
-- Jordan Martin 
-- McKenzie Fiege
-- Wiljago Cook
+- Jackie Ha [https://github.com/jkhaha] (Github)
+- Jordan Martin [https://github.com/jordanmmartin] (Github)
+- McKenzie Fiege [https://github.com/mckenziefiege](Github)
+- Wiljago Cook [https://github.com/reduviidae] (Github)
