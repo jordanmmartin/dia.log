@@ -3,7 +3,7 @@
 ## Motivation
 This app is designed to increase the accessibility of the National Diabetic Prevention Program for pre-diabetic adults to reduce the onset of diabetes by deploying an automated chatbot solution that scales infinitely.
 
-In the United States, more than 30 million Americans have diabetes. More than 84 million US adults—that’s 1 in 3—has prediabetes. The associated cost of diabetes is $327 billion. 
+In the United States, more than 30 million Americans have diabetes, and more than 84 million US adults—that’s 1 in 3—has prediabetes. The associated cost of diabetes is $327 billion. 
 
 The National Diabetes Prevention Program—or National DPP—was created in 2010 by the CDC to address the increasing burden of pre-diabetes and type 2 diabetes in the United States.
 
