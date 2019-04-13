@@ -45,7 +45,7 @@ class App extends Component {
         {
           userSession.isUserSignedIn() ?
           <Routes userSession={userSession}/>
-          : <button className="login-button" onClick={this.handleLogIn}> LOGIN </button>
+          : <button className="login-button" onClick={this.handleLogIn}>login</button>
         }
         {userSession.isUserSignedIn()}
       </div>
