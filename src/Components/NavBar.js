@@ -6,7 +6,7 @@ class NavBar extends Component {
     return (
         <div>
           {this.props.userSession.isUserSignedIn() && <Link to="/profile">Profile</Link>}
-          {this.props.userSession.isUserSignedIn() && <button onClick={this.props.handleLogOut}>logout</button>}
+          {this.props.userSession.isUserSignedIn() && <button className="login-button" onClick={this.props.handleLogOut}>logout</button>}
         </div>
     )
   }

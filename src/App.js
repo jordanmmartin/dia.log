@@ -41,7 +41,6 @@ class App extends Component {
     return (
       <div className="App">
       <NavBar handleLogOut={this.handleLogOut} userSession={userSession}/>
-        <p>HELLO BLOCKSTACK</p>
         {
           userSession.isUserSignedIn() ?
           <Routes userSession={userSession}/>
