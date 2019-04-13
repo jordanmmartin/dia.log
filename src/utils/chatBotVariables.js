@@ -74,25 +74,29 @@ const steps=[
           },
           {
             id: 'start-curriculum',
-            message: 'Eating well can help you prevent or delay type 2 diabetes. Today, we will talk about: how to eat well, how to build a healthy meal, and the items in each food group',
+            message: 'Eating well can help you prevent or delay type 2 diabetes. Today, we will talk about: how to eat well, how to build a healthy meal, and the items in each food group.',
             trigger: '3'
           },
           {
+            delay: 5000,
             id: "3",
             message: 'Let’s start by talking about how to eat well to lower your risk of type 2 diabetes. First of all, you’ll want to choose items that are low in calories. Calories are a measure of energy. You get them from things you eat and drink. Your body burns calories the way a car burns gas. If you want to lose one pound per week, you’ll need to cut about 3,500 calories each week.',
             trigger: '4'
           },
           {
+            delay: 3000,
             id: '4',
             message: 'At the same time, you’ll want to choose items that are low in fat. Why would you want to choose items that are low in fat? Fat is high in calories. Plus, fats that are solid at room temperature can harm your heart.',
             trigger: '5'
           },
           {
+            delay: 5000,
             id: '5',
             message: 'You’ll also want to choose items that are low in sugar. Why would you want to choose items that are low in sugar? Sweet foods can be high in calories, although not as high as fatty foods. (1 tablespoon white sugar has 48 calories. 1 tablespoon butter has 102 calories.) Plus, sweet foods make your blood sugar go up.',
             trigger: 'quiz-1'
           },
           {
+            delay: 3000,
             id: 'quiz-1',
             message: "How many calories do you have to burn to lose one pound?",
             trigger: 'quiz-1-options'
