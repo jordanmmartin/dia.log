@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import {appConfig} from './utils/constants';
 import { UserSession } from 'blockstack';
-import ChatBot from './Components/ChatBot'
+import Routes from "./Pages/Routes";
+import NavBar from "./Components/NavBar"
 
 class App extends Component {
 
@@ -35,15 +36,18 @@ class App extends Component {
   };
 
   render() {
-    const { userSession } = this.state
+    const { userSession } = this.state;
+    console.log(userSession);
     return (
       <div className="App">
+      <NavBar handleLogOut={this.handleLogOut} userSession={userSession}/>
         <p>HELLO BLOCKSTACK</p>
         {
           userSession.isUserSignedIn() ?
-          <button onClick={this.handleLogOut}> LOGOUT </button> : <button onClick={this.handleLogIn}> LOGIN </button>
+          <Routes userSession={userSession}/>
+          : <button onClick={this.handleLogIn}> LOGIN </button>
         }
-        {userSession.isUserSignedIn() && <ChatBot />}
+        {userSession.isUserSignedIn()}
       </div>
     );
   }
