@@ -11,11 +11,17 @@ It is a research-based, structured lifestyle change program focusing on healthy 
 
 It is 16-weeks long, instructor-led, and conversational-style which educates enrollees and helps them track and manage their health goals. It is worth noting that it also fully reimbursable. Currently there are hundreds of organizations nationwide implementing the program. Our app was designed to help the scalability constraints of the DPP for the vast majority of pre-diabetic individuals who may have trouble attneding one of these courses (in-person or online), and give them the flexiblity to take this course anytime, anywhere, without the need for human instructors. 
 
+## Features
+A user can interact with a chat bot that has the DPP curriculum, allowing them to learn about preventing diabetes.
+
+## Screenshots
+
 ## Built with
 
 - React
 - CSS
 - [Blockstack](https://blockstack.org/)
+- [React Simple Chatbot](https://www.npmjs.com/package/react-simple-chatbot)
 
 ## Available Scripts
 
@@ -34,6 +40,8 @@ You will also see any lint errors in the console.
 
 This app utilizes Blockstack. Download Blockstack browser and create an account with Blockstack to use this app.
 
+## Goals for future
+We would like to make user profiles more customizable and add the full curriculum of the DPP. 
 
 ## Contributors 
 - Jackie Ha [Github](https://github.com/jkhaha)
