@@ -1,4 +1,4 @@
-# APP NAME
+# DIA.LOG()
 
 ## Motivation
 This app is designed to increase the accessibility of the National Diabetic Prevention Program for pre-diabetic adults to reduce the onset of diabetes by deploying an automated chatbot solution that scales infinitely.
