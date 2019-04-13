@@ -25,11 +25,10 @@ class Review extends Component {
   }
 
   render() {
+    console.log("CONTEXT", this.context.state.currentUser);
     const { weight } = this.state;
-    console.log('CONEXT', MyContext);
     return (
-      <MyContext.Consumer>
-      { (state) => (<div style={{ width: '100%' }}>
+     <div style={{ width: '100%' }}>
         <h3>Summary</h3>
         <table>
           <tbody>
@@ -39,10 +38,10 @@ class Review extends Component {
             </tr>
           </tbody>
         </table>
-      </div>)}
-      </MyContext.Consumer>
+      </div>
     );
   }
 }
 
 export default Review;
+Review.contextType = MyContext

@@ -21,7 +21,6 @@ Review.defaultProps = {
 class ChatBox extends Component {
   render(){
     const { user } = this.props
-    console.log(user);
     return(
       <ThemeProvider theme={theme}>
         <ChatBot className="chat-bot-container" style= {{width: '80%'}} steps={steps} />
