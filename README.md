@@ -9,7 +9,7 @@ The National Diabetes Prevention Program—or National DPP—was created in 2010
 
 It is a research-based, structured lifestyle change program focusing on healthy eating and physical activity which showed that people with pre-diabetes who take part in it cut their risk of developing type 2 diabetes by 58%.
 
-It is 16-weeks long, instructor-led, and conversational-style which educates enrollees and helps them track and manage their health goals. It is worth noting that it also fully reimbursable. Currently there are hundreds of organizations nationwide implementing the program. Our app was designed to help the scalability constraints of the DPP for the vast majority of pre-diabetic individuals who may have trouble attneding one of these courses (in-person or online), and give them the flexiblity to take this course anytime, anywhere, without the need for human instructors. 
+It is 16-weeks long, instructor-led, and conversational-style which educates enrollees and helps them track and manage their health goals. It is worth noting that it also fully reimbursable. Currently there are hundreds of organizations nationwide implementing the program. Our app was designed to help the scalability constraints of the DPP for the vast majority of pre-diabetic individuals who may have trouble attending one of these courses (in-person or online), and give them the flexibility to take this course anytime, anywhere, without the need for human instructors. 
 
 ## Features
 A user can interact with a chat bot that has the DPP curriculum, allowing them to learn about preventing diabetes.
