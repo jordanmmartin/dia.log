@@ -25,12 +25,12 @@ class Routes extends Component {
          <Route
            exact
            path='/profile'
-           render={() => <Profile />} 
+           render={() => <Profile user={user}/>}
          />
          <Route
            exact
            path='/chat'
-           render={() =>  <ChatBot />}
+           render={() =>  <ChatBot user={user}/>}
          />
        </Switch>
      </UserProvider>

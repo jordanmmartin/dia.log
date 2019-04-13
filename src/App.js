@@ -37,7 +37,6 @@ class App extends Component {
 
   render() {
     const { userSession } = this.state;
-    console.log(userSession);
     return (
       <div className="App">
       <NavBar handleLogOut={this.handleLogOut} userSession={userSession}/>
