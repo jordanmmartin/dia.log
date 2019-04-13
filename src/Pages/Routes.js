@@ -25,7 +25,7 @@ class Routes extends Component {
          <Route
            exact
            path='/profile'
-           render={() => <Profile />} 
+           render={() => <Profile user={user}/>}
          />
          <Route
            exact
