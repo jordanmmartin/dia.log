@@ -1,4 +1,9 @@
 import React, { Component } from 'react';
+import { MyContext } from './UserProvider'
+import {
+  getFile,
+  putFile
+} from 'blockstack';
 
 
 class Review extends Component {
@@ -10,17 +15,21 @@ class Review extends Component {
     };
   }
 
+
   componentWillMount() {
     const { steps } = this.props
     const { weight } = steps;
 
     this.setState({ weight });
+
   }
 
   render() {
     const { weight } = this.state;
+    console.log('CONEXT', MyContext);
     return (
-      <div style={{ width: '100%' }}>
+      <MyContext.Consumer>
+      { (state) => (<div style={{ width: '100%' }}>
         <h3>Summary</h3>
         <table>
           <tbody>
@@ -30,7 +39,8 @@ class Review extends Component {
             </tr>
           </tbody>
         </table>
-      </div>
+      </div>)}
+      </MyContext.Consumer>
     );
   }
 }

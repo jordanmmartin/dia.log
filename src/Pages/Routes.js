@@ -30,7 +30,7 @@ class Routes extends Component {
          <Route
            exact
            path='/chat'
-           render={() =>  <ChatBot />}
+           render={() =>  <ChatBot user={user}/>}
          />
        </Switch>
      </UserProvider>
