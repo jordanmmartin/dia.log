@@ -5,6 +5,13 @@ body {
   border-color: #eee;
 }
 
+.centered {
+  text-align: center;
+  font-size: 16px;
+  color: #696969;
+  font-weight: 700;
+}
+
 .app-name {
   text-align: center;
   text-transform: uppercase;
