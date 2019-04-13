@@ -147,7 +147,7 @@ const steps=[
           {
             id: 'quiz-2-options',
             options: [
-              {value: 2000, label: 'calories', trigger: 'correct-2'},
+              {value: 2000, label: 'calories and fat', trigger: 'correct-2'},
               {value: 1500, label: 'fiber and water', trigger: 'wrong-2'},
               {value: 3500, label: 'vitamins, minerals, and protein', trigger: 'wrong-2'}
             ]
