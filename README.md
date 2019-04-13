@@ -16,7 +16,6 @@ A user can interact with a chat bot that has the DPP curriculum, allowing them t
 
 ## Screenshots
 ![Screen Shot 2019-04-13 at 6 53 33 PM](https://user-images.githubusercontent.com/42298251/56086113-c85b4d00-5e1d-11e9-9931-de10d40c7936.png)
-![Screen Shot 2019-04-13 at 6 53 49 PM](https://user-images.githubusercontent.com/42298251/56086115-cbeed400-5e1d-11e9-90bb-2debc5c52ca8.png)
 
 ## Built with
 
