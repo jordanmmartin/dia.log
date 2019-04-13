@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import ChatBot from 'react-simple-chatbot';
+import { ThemeProvider } from 'styled-components';
+import theme from '../utils/chatBotTheme';
 
 class ChatBox extends Component {
   render(){
@@ -16,7 +18,9 @@ class ChatBox extends Component {
     },
   ];
     return(
-      <div>  <ChatBot steps={steps} /></div>
+      <ThemeProvider theme={theme}>
+        <ChatBot width={"50"} steps={steps} />
+      </ThemeProvider>
     )
   }
 };
