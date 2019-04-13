@@ -41,11 +41,10 @@ class App extends Component {
     return (
       <div className="App">
       <NavBar handleLogOut={this.handleLogOut} userSession={userSession}/>
-        <p>HELLO BLOCKSTACK</p>
         {
           userSession.isUserSignedIn() ?
           <Routes userSession={userSession}/>
-          : <button onClick={this.handleLogIn}> LOGIN </button>
+          : <button className="login-button" onClick={this.handleLogIn}>login</button>
         }
         {userSession.isUserSignedIn()}
       </div>
