@@ -13,13 +13,16 @@ It is 16-weeks long, instructor-led, and conversational-style which educates enr
 
 ## Built with
 
-- react
-- css
-- blockstack 
+- React
+- CSS
+- [https://blockstack.org/](Blockstack)
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+Run npm install to install dependencies. 
 
 ### `npm start`
 
