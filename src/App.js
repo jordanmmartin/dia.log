@@ -40,7 +40,7 @@ class App extends Component {
     return (
       <div className="App">
       <NavBar handleLogOut={this.handleLogOut} userSession={userSession}/>
-      <p class="centered">This app is designed to increase the accessibility of the National Diabetic Prevention Program <br/> for pre-diabetic adults to reduce the onset of diabetes by deploying<br/> an automated chatbot solution that scales infinitely.</p>
+      {!userSession.isUserSignedIn() && <p class="centered">This app is designed to increase the accessibility of the National Diabetic Prevention Program <br/> for pre-diabetic adults to reduce the onset of diabetes by deploying<br/> an automated chatbot solution that scales infinitely.</p>}
         {
           userSession.isUserSignedIn() ?
           <Routes userSession={userSession}/>
